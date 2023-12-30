@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+ <div class="container bg-dark h-100 text-capitalize text-info py-3 px-5">
+    <label for="exampleDataList" class="form-label">product</label>
+<input class="form-control" list="datalistOptions" id="product" placeholder="product">
+<label for="exampleDataList" class="form-label">price</label>
+<input   type="number"  class="form-control" list="datalistOptions" id="price" placeholder="price">
+<div class="addtion d-flex gap-3 mt-4" >
+    <label for="exampleDataList" class="form-label">texes</label>
+    <input   type="number"  class="form-control" list="datalistOptions" id="texes" placeholder="texes">
+
+ <label for="exampleDataList" class="form-label">earnings</label>
+<input type="number"  class="form-control" list="datalistOptions" id="earnings" placeholder="earnings">
+
+<label for="exampleDataList" class="form-label">advertisements</label>
+<input type="number" class="form-control" list="datalistOptions" id="advertisements" placeholder="advertisements">
+</div>
+<div class="totalGroup d-flex mt-5" >
+<div id="labelTotal" class="me-4">
+ <label for="exampleDataList" class="form-label">total</label>
+</div>
+<div class="input-group " id="total">
+    <input type="number"  class="form-control  rounded-0" list="datalistOptions" placeholder="total">
+</div>
+<div id="btnTotal">
+    <button class="  rounded-0 h-100 btn btn-outline-secondary" type="button" >total</button>
+</div>
+</div>
+
+
+ </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/product.js"></script>
+</body>
+</html>
